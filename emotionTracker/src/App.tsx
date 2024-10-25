@@ -14,8 +14,13 @@ function App() {
 
   return (
     <>
-      <div className="header">
-        <h1 className="header">Emotion Detector</h1>
+      <div className="emotion-box">
+        <div className="emotion-container">
+          <text className="header">Emotion Detector</text>
+          <div className="emotion-cam">
+            <h1>test</h1>
+          </div>
+        </div>
       </div>
     </>
   );
